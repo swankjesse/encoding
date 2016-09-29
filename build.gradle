@@ -1,0 +1,25 @@
+allprojects {
+  buildscript {
+    repositories {
+      mavenCentral()
+    }
+  }
+
+  repositories {
+    mavenCentral()
+  }
+}
+
+ext {
+  androidPlugin = 'com.android.tools.build:gradle:2.1.0'
+  compileSdkVersion = 24
+  buildToolsVersion = '24.0.0'
+
+  findbugsAnnotations = 'com.google.code.findbugs:annotations:3.0.0'
+  findbugsJsr305 = 'com.google.code.findbugs:jsr305:3.0.0'
+  okio = 'com.squareup.okio:okio:1.10.0'
+  supportAnnotations = 'com.android.support:support-annotations:24.0.0'
+  supportTestRunner = 'com.android.support.test:runner:0.5'
+  supportV4 = 'com.android.support:support-v4:24.0.0'
+  truth = 'com.google.truth:truth:0.27'
+}

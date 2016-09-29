@@ -1,0 +1,3 @@
+include ':encoding'
+
+rootProject.name = 'encoding-root'

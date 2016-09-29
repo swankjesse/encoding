@@ -3,8 +3,11 @@ Encoding
 
 Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droidcon NYC.
 
+See also:
 
-
+ * [Okio](https://github.com/square/okio)
+ * [BMP file format](https://en.wikipedia.org/wiki/BMP_file_format)
+ * [Morse Code (old!)](https://github.com/JakeWharton/SMSMorse)
 
 
 License

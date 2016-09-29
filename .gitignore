@@ -1,4 +1,7 @@
 *.class
+.gradle
+build
+encoding/build
 local.properties
 
 # Package Files #

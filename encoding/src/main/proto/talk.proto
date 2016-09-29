@@ -1,0 +1,15 @@
+syntax = "proto2";
+
+package com.publicobject.encoding.proto;
+
+message Talk {
+  optional fixed32 id = 1;
+  optional fixed64 date = 2;
+  optional Room room = 3;
+  optional string title = 4;
+  optional string speaker = 5;
+
+  enum Room {
+    UP = 1; RIGHT = 2; DOWN = 3; LEFT = 4;
+  }
+}

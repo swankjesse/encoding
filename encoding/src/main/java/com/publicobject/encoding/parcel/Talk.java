@@ -13,7 +13,7 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.publicobject.encoding;
+package com.publicobject.encoding.parcel;
 
 import android.os.Parcel;
 import android.os.Parcelable;
@@ -78,7 +78,7 @@ public final class Talk implements Parcelable {
         id, date, room, title, speaker);
   }
 
-  enum Room {
+  public enum Room {
     UP, RIGHT, DOWN, LEFT
   }
 }

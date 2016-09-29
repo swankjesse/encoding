@@ -22,4 +22,5 @@ ext {
   supportTestRunner = 'com.android.support.test:runner:0.5'
   supportV4 = 'com.android.support:support-v4:24.0.0'
   truth = 'com.google.truth:truth:0.27'
+  wire = 'com.squareup.wire:wire-runtime:2.2.0'
 }

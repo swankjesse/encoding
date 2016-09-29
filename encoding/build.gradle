@@ -10,6 +10,8 @@ apply from: rootProject.file('gradle/android-findbugs.gradle')
 dependencies {
   compile rootProject.ext.okio
   compile rootProject.ext.supportAnnotations
+  compile rootProject.ext.truth
+  compile rootProject.ext.wire
 
   androidTestCompile rootProject.ext.supportTestRunner
   androidTestCompile(rootProject.ext.truth) {

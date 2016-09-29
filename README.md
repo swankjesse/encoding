@@ -14,6 +14,7 @@ Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droi
 
 ### ASCII
 
+ * [ASCII table](http://man7.org/linux/man-pages/man7/ascii.7.html)
  * [Wikipedia on ASCII](https://en.wikipedia.org/wiki/ASCII)
 
 ### Unicode
@@ -37,18 +38,22 @@ Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droi
 
 ### Protocol Buffers
 
+ * [talk.proto](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/proto/talk.proto)
+ * [TalkProtoTest.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/androidTest/java/com/publicobject/encoding/proto/TalkProtoTest.java)
  * [Wire](https://github.com/square/wire)
  * [ProtoWriter.java](https://github.com/square/wire/blob/master/wire-runtime/src/main/java/com/squareup/wire/ProtoWriter.java)
 
 ### ByteString
 
+ * [ByteStringSample.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/java/com/publicobject/encoding/ByteStringSample.java)
  * [Okio](https://github.com/square/okio)
  * [10 things you can do with Okio’s ByteString](https://publicobject.com/2014/04/10/10-things-you-can-do-with-okio-s-bytestring/)
  * [ByteString.java](https://github.com/square/okio/blob/master/okio/src/main/java/okio/ByteString.java)
 
 ### Parcelable
 
- * [EncodingTest.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/androidTest/java/com/publicobject/encoding/parcel/TalkParcelingTest.java)
+ * [Talk.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/java/com/publicobject/encoding/parcel/Talk.java)
+ * [TalkParcelingTest.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/androidTest/java/com/publicobject/encoding/parcel/TalkParcelingTest.java)
 
 License
 -------

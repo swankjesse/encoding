@@ -1,7 +1,7 @@
 Encoding
 ========
 
-Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droidcon NYC.
+Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droidcon NYC 2016.
 
 ### Letters
 
@@ -21,6 +21,7 @@ Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droi
 
  * [Joel Spolsky on Unicode](http://www.joelonsoftware.com/articles/Unicode.html)
  * [CharacterLoops.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/java/com/publicobject/encoding/CharacterLoops.java)
+ * [No beer emoji for java.io.Reader](https://publicobject.com/2015/05/16/no-beer-emoji-for-java-io-reader/)
 
 ### UTF-8
 
@@ -31,6 +32,7 @@ Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droi
  * [Bitmap.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/java/com/publicobject/encoding/Bitmap.java)
  * [BMP file format example](https://en.wikipedia.org/wiki/BMP_file_format#Example_1)
  * [Bitmap quality, banding and dithering](http://www.curious-creature.com/2010/12/08/bitmap-quality-banding-and-dithering/)
+ * [Hacker’s Delight](http://www.hackersdelight.org/)
 
 ### JSON
 
@@ -49,26 +51,13 @@ Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droi
  * [Okio](https://github.com/square/okio)
  * [10 things you can do with Okio’s ByteString](https://publicobject.com/2014/04/10/10-things-you-can-do-with-okio-s-bytestring/)
  * [ByteString.java](https://github.com/square/okio/blob/master/okio/src/main/java/okio/ByteString.java)
+ * [Buffering data with Okio](https://medium.com/square-corner-blog/buffering-data-with-okio-f83823d9ba25)
 
 ### Parcelable
 
  * [Talk.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/main/java/com/publicobject/encoding/parcel/Talk.java)
  * [TalkParcelingTest.java](https://github.com/swankjesse/encoding/blob/master/encoding/src/androidTest/java/com/publicobject/encoding/parcel/TalkParcelingTest.java)
 
-License
--------
+### Next Steps
 
-    Copyright 2016 Jesse Wilson
-
-    Licensed under the Apache License, Version 2.0 (the "License");
-    you may not use this file except in compliance with the License.
-    You may obtain a copy of the License at
-
-       http://www.apache.org/licenses/LICENSE-2.0
-
-    Unless required by applicable law or agreed to in writing, software
-    distributed under the License is distributed on an "AS IS" BASIS,
-    WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
-    See the License for the specific language governing permissions and
-    limitations under the License.
-
+ * [A Few Ok Libraries](http://jakewharton.com/a-few-ok-libraries/)

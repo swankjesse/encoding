@@ -64,9 +64,9 @@ public final class Bitmap {
       int[] row = pixels[y];
       for (int x = 0; x < width; x++) {
         int pixel = row[x];
-        sink.writeByte((pixel & 0x0000ff));       // b
-        sink.writeByte((pixel & 0x00ff00) >> 8);  // g
-        sink.writeByte((pixel & 0xff0000) >> 16); // r
+        sink.writeByte((pixel & 0x0000ff));       // Blue.
+        sink.writeByte((pixel & 0x00ff00) >> 8);  // Green.
+        sink.writeByte((pixel & 0xff0000) >> 16); // Red.
       }
 
       // Padding for 4-byte alignment.

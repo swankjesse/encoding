@@ -1,7 +1,7 @@
 Encoding
 ========
 
-Supplement to Jesse’s talk “Decoding the Secrets of Binary Data” from Droidcon NYC 2016.
+Supplement to Jesse’s talk [Decoding the Secrets of Binary Data](https://www.youtube.com/watch?v=T_p22jMZSrk) from Droidcon NYC 2016.
 
 ### Letters
 
